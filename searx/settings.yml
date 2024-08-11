@@ -388,6 +388,7 @@ engines:
     engine: arxiv
     shortcut: arx
     timeout: 4.0
+    disabled: false
 
   - name: ask
     engine: ask
@@ -909,6 +910,7 @@ engines:
   - name: google scholar
     engine: google_scholar
     shortcut: gos
+    disabled: false
 
   - name: google play apps
     engine: google_play
@@ -1317,11 +1319,10 @@ engines:
     engine: openalex
     shortcut: oa
     base_url: 'https://api.openalex.org/works'
-    categories: general
+    categories: science
     timeout: 3.0
     api_key: ''
     disabled: false
-    language: en_US
     tokens: []
     weight: 1
 
@@ -1690,7 +1691,7 @@ engines:
 
   - name: semantic scholar
     engine: semantic_scholar
-    disabled: true
+    disabled: false
     shortcut: se
 
   # Spotify needs API credentials

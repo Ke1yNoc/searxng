@@ -908,7 +908,7 @@ engines:
     #   android: *test_android
 
   - name: google scholar
-    engine: google_scholar
+    engine: google_scholar_Alter
     shortcut: gos
     disabled: false
 

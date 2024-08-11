@@ -1313,6 +1313,18 @@ engines:
       require_api_key: false
       results: JSON
 
+  - name: openalex_engine
+    engine: openalex
+    shortcut: oa
+    base_url: 'https://api.openalex.org/works'
+    categories: general
+    timeout: 3.0
+    api_key: ''
+    disabled: false
+    language: en_US
+    tokens: []
+    weight: 1
+
   - name: openmeteo
     engine: open_meteo
     shortcut: om
